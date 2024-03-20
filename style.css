@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+}
+body {
+  text-align: center;
+  background: rgb(72, 198, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(72, 198, 239, 1) 0%,
+    rgba(111, 134, 214, 1) 100%
+  );
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: bold;
+  color: rgb(14, 85, 98);
+}
+h1 {
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+  font-size: xx-large;
+}
+#display {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  margin: 0% 20% 0% 22%;
+  background-image: url("https://images.pexels.com/photos/490411/pexels-photo-490411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 400px;
+}
+
+#displaywatch {
+  padding: 20px;
+}
+
+button {
+  margin: 8px;
+  border: 2px solid rgb(255, 255, 0);
+  border-radius: 15px;
+  font-size: x-large;
+  padding: 5px;
+  cursor: pointer;
+}
+#start {
+  background-color: green;
+}
+#stop {
+  background-color: red;
+}
+#reset {
+  background-color: orange;
+}
